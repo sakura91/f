@@ -20,6 +20,7 @@ function disabledAllLi() {
         if (!element.classList.contains("disabled")) {
             element.classList.add("disabled");
         }
+        
         if (element.classList.contains("enabled")) {
             element.classList.remove("enabled");
         }

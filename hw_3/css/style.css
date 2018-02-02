@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.cont {
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    margin: 1%;
+}

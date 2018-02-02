@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+.item {
+    margin: 30px;
+    display: block;
+    width: 10%;
+    text-align: center;
+    background-color: yellow;
+    font-size: 20px;
+}
+.enabled {
+    background-color: green;
+}
+.disabled {
+    background-color: grey;
+}
+

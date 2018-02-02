@@ -1,0 +1,38 @@
+.element {
+    display: block;
+    width: 10%;
+    background-color: #b3d4fc;
+    text-align: center;
+    padding: 10px 10px 15px;
+    margin: 30px 5px;
+    border: 2px solid #222222;
+    border-radius: 7px;
+}
+.element h2 {
+    margin-top: 0;
+}
+.element a {
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 100%;
+    color: currentColor;
+    border-radius: 7px;
+    box-shadow: 0 0 5px;;
+}
+.element a:hover {
+    background-color: #cccccc;
+}
+.element a:active {
+    background-color: #b3d4fc;
+}
+
+/*Flex-element*/
+
+.wrap {
+    display: flex;
+    background-color: cadetblue;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}

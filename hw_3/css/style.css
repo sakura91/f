@@ -5,8 +5,8 @@
 }
 .cont {
     display: block;
-    width: 400px;
-    height: 400px;
+    /*width: 400px;*/
+    /*height: 400px;*/
     background-color: bisque;
     margin: 1%;
 }

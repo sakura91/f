@@ -6,7 +6,6 @@ ul.addEventListener("click", function (e) {
             e.target.classList.toggle("active");
             e.target.classList.toggle("disabled");
         } else {
-            disabledAllLi();
             e.target.classList.toggle("active");
             e.target.classList.toggle("disabled");
         }
@@ -17,14 +16,15 @@ function disabledAllLi() {
     var arr = [].slice.call(ul.children);
 
     arr.forEach(function (element) {
-        if (!element.classList.contains("disabled")) {
-            element.classList.add("disabled");
-        }
 
         if (element.classList.contains("active")) {
             element.classList.remove("active");
         }
+
+        if (!element.classList.contains("disabled")) {
+            element.classList.add("disabled");
+        }
     });
 }
 
-
+disabledAllLi();
